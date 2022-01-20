@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{84C86585-04DA-4368-9069-FBCEAC19D0B1}</ProjectGuid>
+    <ProjectGuid>{8AAFDA44-952A-4919-A772-C41160454E7B}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>ExtrapolateFiles</RootNamespace>
-    <AssemblyName>ExtrapolateFiles</AssemblyName>
+    <RootNamespace>FormExtrapolate</RootNamespace>
+    <AssemblyName>FormExtrapolate</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -54,6 +54,7 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\ReadFiles.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
